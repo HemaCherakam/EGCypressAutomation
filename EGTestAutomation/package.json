@@ -1,0 +1,19 @@
+{
+  "name": "egtestautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"cypress/**/*.js\"",
+    "format:check": "prettier --check \"cypress/**/*.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "prettier": "^3.3.2"
+  }
+}
